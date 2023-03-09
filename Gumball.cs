@@ -1,14 +1,11 @@
 namespace Products
 {
-    public class Gumball
+    public class Gumball : Candy
     {
-        public double? Price { get; set; }
 
-        public double? Weight { get; set; }
+        // public Gumball(string name, double price, double weight)
+        // {
 
-        public string? Brand { get; set; }
-
-        public string? Name { get; set; }
-
+        // }
     }
 }
